@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		89D0F1C90F3B704E007831A7 /* JAWTExample */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 89D0F1D20F3B7080007831A7 /* Build configuration list for PBXAggregateTarget "JAWTExample" */;
+			buildPhases = (
+			);
+			dependencies = (
+				89D0F1D10F3B7062007831A7 /* PBXTargetDependency */,
+				89D0F1CF0F3B7062007831A7 /* PBXTargetDependency */,
+				89D0F1CD0F3B7062007831A7 /* PBXTargetDependency */,
+			);
+			name = JAWTExample;
+			productName = JAWTExample;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		2C33CA1B12CFC6010054AABD /* LayerCanvas.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C33CA1A12CFC6010054AABD /* LayerCanvas.m */; };
+		338142BD12A6F565006C0927 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 338142BC12A6F565006C0927 /* Quartz.framework */; };
+		338142C812A6F5A3006C0927 /* Clouds.qtz in Resources */ = {isa = PBXBuildFile; fileRef = 338142A412A6F4F3006C0927 /* Clouds.qtz */; };
+		3399FD1B12A6DBEA00D1DE2E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 339999C112A6D74600D1DE2E /* QuartzCore.framework */; };
+		339D729912A9A79F00DDCCF4 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 339D729812A9A79F00DDCCF4 /* OpenGL.framework */; };
+		339D72EE12A9AF9500DDCCF4 /* Sample.mov in Resources */ = {isa = PBXBuildFile; fileRef = 339D72EA12A9AF8800DDCCF4 /* Sample.mov */; };
+		339D72F212A9AFE600DDCCF4 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 339D72F112A9AFE600DDCCF4 /* QTKit.framework */; };
+		33E72D6112A6C92E00E0AE06 /* DrawingCanvas.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E72D6012A6C92E00E0AE06 /* DrawingCanvas.m */; };
+		33E72DBE12A6CCBB00E0AE06 /* JAWTExample.jar in Copy Java Resources */ = {isa = PBXBuildFile; fileRef = 33E72DBD12A6CCAA00E0AE06 /* JAWTExample.jar */; };
+		89C3F2920F5250A300B0048E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 89C3F2900F5250A300B0048E /* Credits.rtf */; };
+		89D0F0240F392F20007831A7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 89D0F0210F392F20007831A7 /* InfoPlist.strings */; };
+		89D0F0410F39306C007831A7 /* JavaApplicationStub in Copy Executable */ = {isa = PBXBuildFile; fileRef = 89D0F03E0F39304A007831A7 /* JavaApplicationStub */; };
+		89D0F05C0F39404F007831A7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		89D0F0850F394066007831A7 /* JavaNativeFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89D0F0840F394066007831A7 /* JavaNativeFoundation.framework */; };
+		89D0F11C0F394183007831A7 /* libJAWTExample.jnilib in Copy Java Resources */ = {isa = PBXBuildFile; fileRef = 89D0F0500F393AD9007831A7 /* libJAWTExample.jnilib */; };
+		89D0F1870F3A2442007831A7 /* JavaVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89D0F1860F3A2442007831A7 /* JavaVM.framework */; };
+		89D0F1BF0F3B68AD007831A7 /* GenericApp.icns in Resources */ = {isa = PBXBuildFile; fileRef = 89D0F1BE0F3B68AD007831A7 /* GenericApp.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		89D0F1CC0F3B7062007831A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D1107260486CEB800E47090;
+			remoteInfo = "Assemble Application";
+		};
+		89D0F1CE0F3B7062007831A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89D0F04F0F393AD9007831A7;
+			remoteInfo = "Compile Native";
+		};
+		89D0F1D00F3B7062007831A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89D0F0480F393A6F007831A7;
+			remoteInfo = "Compile Java";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		89D0F0440F393070007831A7 /* Copy Executable */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				89D0F0410F39306C007831A7 /* JavaApplicationStub in Copy Executable */,
+			);
+			name = "Copy Executable";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89D0F11F0F394189007831A7 /* Copy Java Resources */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 15;
+			files = (
+				33E72DBE12A6CCBB00E0AE06 /* JAWTExample.jar in Copy Java Resources */,
+				89D0F11C0F394183007831A7 /* libJAWTExample.jnilib in Copy Java Resources */,
+			);
+			name = "Copy Java Resources";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		2C33CA1A12CFC6010054AABD /* LayerCanvas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayerCanvas.m; sourceTree = "<group>"; };
+		338142A412A6F4F3006C0927 /* Clouds.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; path = Clouds.qtz; sourceTree = "<group>"; };
+		338142BC12A6F565006C0927 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = /System/Library/Frameworks/Quartz.framework; sourceTree = "<absolute>"; };
+		339999C112A6D74600D1DE2E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = /System/Library/Frameworks/QuartzCore.framework; sourceTree = "<absolute>"; };
+		339D729812A9A79F00DDCCF4 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		339D72EA12A9AF8800DDCCF4 /* Sample.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = Sample.mov; sourceTree = "<group>"; };
+		339D72F112A9AFE600DDCCF4 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
+		33E72D6012A6C92E00E0AE06 /* DrawingCanvas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingCanvas.m; sourceTree = "<group>"; };
+		33E72DBD12A6CCAA00E0AE06 /* JAWTExample.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; name = JAWTExample.jar; path = build/Debug/JAWTExample.jar; sourceTree = "<group>"; };
+		89C3F2910F5250A300B0048E /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/Credits.rtf; sourceTree = "<group>"; };
+		89D0F0220F392F20007831A7 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		89D0F0230F392F20007831A7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89D0F0290F392F56007831A7 /* java */ = {isa = PBXFileReference; lastKnownFileType = folder; path = java; sourceTree = "<group>"; };
+		89D0F03E0F39304A007831A7 /* JavaApplicationStub */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = JavaApplicationStub; path = /System/Library/Frameworks/JavaVM.framework/Versions/A/Resources/MacOS/JavaApplicationStub; sourceTree = "<absolute>"; };
+		89D0F0500F393AD9007831A7 /* libJAWTExample.jnilib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libJAWTExample.jnilib; sourceTree = BUILT_PRODUCTS_DIR; };
+		89D0F0840F394066007831A7 /* JavaNativeFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaNativeFoundation.framework; path = /System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks/JavaNativeFoundation.framework; sourceTree = "<absolute>"; };
+		89D0F1390F3948A9007831A7 /* make */ = {isa = PBXFileReference; lastKnownFileType = folder; path = make; sourceTree = "<group>"; };
+		89D0F1860F3A2442007831A7 /* JavaVM.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaVM.framework; path = /System/Library/Frameworks/JavaVM.framework; sourceTree = "<absolute>"; };
+		89D0F1BE0F3B68AD007831A7 /* GenericApp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = GenericApp.icns; path = /System/Library/Frameworks/JavaVM.framework/Versions/A/Resources/GenericApp.icns; sourceTree = "<absolute>"; };
+		8D1107320486CEB800E47090 /* JAWTExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JAWTExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89D0F04E0F393AD9007831A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89D0F05C0F39404F007831A7 /* Cocoa.framework in Frameworks */,
+				89D0F1870F3A2442007831A7 /* JavaVM.framework in Frameworks */,
+				89D0F0850F394066007831A7 /* JavaNativeFoundation.framework in Frameworks */,
+				3399FD1B12A6DBEA00D1DE2E /* QuartzCore.framework in Frameworks */,
+				338142BD12A6F565006C0927 /* Quartz.framework in Frameworks */,
+				339D729912A9A79F00DDCCF4 /* OpenGL.framework in Frameworks */,
+				339D72F212A9AFE600DDCCF4 /* QTKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33E72DBD12A6CCAA00E0AE06 /* JAWTExample.jar */,
+				89D0F0500F393AD9007831A7 /* libJAWTExample.jnilib */,
+				8D1107320486CEB800E47090 /* JAWTExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* JAWTExample */ = {
+			isa = PBXGroup;
+			children = (
+				89D0F0260F392F48007831A7 /* Source */,
+				89D0F0200F392F20007831A7 /* Resources */,
+				89D0F1390F3948A9007831A7 /* make */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = JAWTExample;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				89D0F1860F3A2442007831A7 /* JavaVM.framework */,
+				89D0F0840F394066007831A7 /* JavaNativeFoundation.framework */,
+				339999C112A6D74600D1DE2E /* QuartzCore.framework */,
+				338142BC12A6F565006C0927 /* Quartz.framework */,
+				339D729812A9A79F00DDCCF4 /* OpenGL.framework */,
+				339D72F112A9AFE600DDCCF4 /* QTKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		89D0F0200F392F20007831A7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				339D72EA12A9AF8800DDCCF4 /* Sample.mov */,
+				338142A412A6F4F3006C0927 /* Clouds.qtz */,
+				89C3F2900F5250A300B0048E /* Credits.rtf */,
+				89D0F0230F392F20007831A7 /* Info.plist */,
+				89D0F0210F392F20007831A7 /* InfoPlist.strings */,
+				89D0F03E0F39304A007831A7 /* JavaApplicationStub */,
+				89D0F1BE0F3B68AD007831A7 /* GenericApp.icns */,
+			);
+			name = Resources;
+			path = resources;
+			sourceTree = "<group>";
+		};
+		89D0F0260F392F48007831A7 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				89D0F0290F392F56007831A7 /* java */,
+				89D0F0280F392F48007831A7 /* native */,
+			);
+			name = Source;
+			path = src;
+			sourceTree = "<group>";
+		};
+		89D0F0280F392F48007831A7 /* native */ = {
+			isa = PBXGroup;
+			children = (
+				33E72D6012A6C92E00E0AE06 /* DrawingCanvas.m */,
+				2C33CA1A12CFC6010054AABD /* LayerCanvas.m */,
+			);
+			path = native;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		89D0F04C0F393AD9007831A7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXLegacyTarget section */
+		89D0F0480F393A6F007831A7 /* Compile Java */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "-e -f \"${SRCROOT}/make/build.xml\" -debug \"$ACTION\"";
+			buildConfigurationList = 89D0F04B0F393AB7007831A7 /* Build configuration list for PBXLegacyTarget "Compile Java" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/ant;
+			buildWorkingDirectory = "";
+			dependencies = (
+			);
+			name = "Compile Java";
+			passBuildSettingsInEnvironment = 1;
+			productName = "Compile Java";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		89D0F04F0F393AD9007831A7 /* Compile Native */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89D0F0530F393AF8007831A7 /* Build configuration list for PBXNativeTarget "Compile Native" */;
+			buildPhases = (
+				89D0F1360F394748007831A7 /* Run javah */,
+				89D0F04C0F393AD9007831A7 /* Headers */,
+				89D0F04D0F393AD9007831A7 /* Sources */,
+				89D0F04E0F393AD9007831A7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Compile Native";
+			productName = "Compile Native";
+			productReference = 89D0F0500F393AD9007831A7 /* libJAWTExample.jnilib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		8D1107260486CEB800E47090 /* Assemble Application */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Assemble Application" */;
+			buildPhases = (
+				89D0F0440F393070007831A7 /* Copy Executable */,
+				89D0F11F0F394189007831A7 /* Copy Java Resources */,
+				8D1107290486CEB800E47090 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Assemble Application";
+			productInstallPath = "$(HOME)/Applications";
+			productName = JAWTExample;
+			productReference = 8D1107320486CEB800E47090 /* JAWTExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "JAWTExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* JAWTExample */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89D0F1C90F3B704E007831A7 /* JAWTExample */,
+				89D0F0480F393A6F007831A7 /* Compile Java */,
+				89D0F04F0F393AD9007831A7 /* Compile Native */,
+				8D1107260486CEB800E47090 /* Assemble Application */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				339D72EE12A9AF9500DDCCF4 /* Sample.mov in Resources */,
+				338142C812A6F5A3006C0927 /* Clouds.qtz in Resources */,
+				89D0F0240F392F20007831A7 /* InfoPlist.strings in Resources */,
+				89D0F1BF0F3B68AD007831A7 /* GenericApp.icns in Resources */,
+				89C3F2920F5250A300B0048E /* Credits.rtf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		89D0F1360F394748007831A7 /* Run javah */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run javah";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# find the jar file to dig into\nJAR_TO_JAVAH=\"${BUILT_PRODUCTS_DIR}/JAWTExample.jar\"\n\n# use a helper script to list all classes inside the jar, and all classes referenced by those classes\nCLASS_LIST=`\"${SRCROOT}/make/find-classrefs.sh\" \"${JAR_TO_JAVAH}\" | xargs`\n\n# run javah for all classes inside the jar, and all classes referenced by those classes\njavah -verbose -jni -classpath \"${JAR_TO_JAVAH}\" -d \"${DERIVED_SOURCES_DIR}\" ${CLASS_LIST}";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89D0F04D0F393AD9007831A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33E72D6112A6C92E00E0AE06 /* DrawingCanvas.m in Sources */,
+				2C33CA1B12CFC6010054AABD /* LayerCanvas.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		89D0F1CD0F3B7062007831A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D1107260486CEB800E47090 /* Assemble Application */;
+			targetProxy = 89D0F1CC0F3B7062007831A7 /* PBXContainerItemProxy */;
+		};
+		89D0F1CF0F3B7062007831A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89D0F04F0F393AD9007831A7 /* Compile Native */;
+			targetProxy = 89D0F1CE0F3B7062007831A7 /* PBXContainerItemProxy */;
+		};
+		89D0F1D10F3B7062007831A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89D0F0480F393A6F007831A7 /* Compile Java */;
+			targetProxy = 89D0F1D00F3B7062007831A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		89C3F2900F5250A300B0048E /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89C3F2910F5250A300B0048E /* English */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		89D0F0210F392F20007831A7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89D0F0220F392F20007831A7 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		89D0F0490F393A6F007831A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = JAWTExample;
+			};
+			name = Debug;
+		};
+		89D0F04A0F393A6F007831A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = AddressBook;
+			};
+			name = Release;
+		};
+		89D0F0510F393ADA007831A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_EXTENSION = jnilib;
+				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_LIBRARY_DIR)/Frameworks/JavaVM.framework/Versions/A/Frameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				HEADER_SEARCH_PATHS = "\"$(SYSTEM_LIBRARY_DIR)/Frameworks/JavaVM.framework/Headers\"";
+				INSTALL_PATH = /usr/local/lib;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = JAWTExample;
+			};
+			name = Debug;
+		};
+		89D0F0520F393ADA007831A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_EXTENSION = jnilib;
+				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_LIBRARY_DIR)/Frameworks/JavaVM.framework/Versions/A/Frameworks\"",
+				);
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				HEADER_SEARCH_PATHS = "\"$(SYSTEM_LIBRARY_DIR)/Frameworks/JavaVM.framework/Headers\"";
+				INSTALL_PATH = /usr/local/lib;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = JAWTExample;
+			};
+			name = Release;
+		};
+		89D0F1CA0F3B704F007831A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = JAWTExample;
+			};
+			name = Debug;
+		};
+		89D0F1CB0F3B704F007831A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = JAWTExample;
+			};
+			name = Release;
+		};
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = resources/Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = JAWTExample;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				INFOPLIST_FILE = resources/Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = JAWTExample;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89D0F04B0F393AB7007831A7 /* Build configuration list for PBXLegacyTarget "Compile Java" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89D0F0490F393A6F007831A7 /* Debug */,
+				89D0F04A0F393A6F007831A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89D0F0530F393AF8007831A7 /* Build configuration list for PBXNativeTarget "Compile Native" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89D0F0510F393ADA007831A7 /* Debug */,
+				89D0F0520F393ADA007831A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89D0F1D20F3B7080007831A7 /* Build configuration list for PBXAggregateTarget "JAWTExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89D0F1CA0F3B704F007831A7 /* Debug */,
+				89D0F1CB0F3B704F007831A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Assemble Application" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "JAWTExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
